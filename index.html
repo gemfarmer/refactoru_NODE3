@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <title>Hello!</title>
+	    <link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
+	</head>
+
+	<body>
+		<center><h1>Feeling Blue?</h1></center><br>
+	    <form id="signup-form" class="form" method="post" action="/formsubmit">
+				<div class="form-group">
+					Username: <input type="text" name="username"><br>
+					Email: <input type="email" name="email"><br>
+					<button class="btn btn-default" type="submit" value="Submit">Submit</button>
+					<div id="loader"></div>
+					<h3 id="message"></h3>
+				</div>
+		</form>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+		<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+		<script src="/javascripts/ajax.js"></script>
+	</body>
+</html>

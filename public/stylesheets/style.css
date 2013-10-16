@@ -1,0 +1,81 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+*{
+	font-family: helvetica;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+.highlight{
+	background-color: lightblue;
+}
+#signup-form{
+	text-align: center;
+}
+.label{
+	width:30px;
+	height: 20px;
+	color: black;
+}
+@keyframes mymove
+{
+0%   {
+	left:0px;
+	background-color: darkblue;
+}
+25%  {
+	left:844px;
+	background-color: steelblue;
+}
+50%  {
+	left:211px;
+	/*background-color: blue;*/
+	}
+75%  {
+	left:633px;
+	background-color: skyblue;
+}
+100% {
+	left:422px;
+	background-color: lightblue;
+}
+}
+@-webkit-keyframes mymove
+{
+0%   {
+	left:0px;
+	background-color: darkblue;
+}
+25%  {
+	left:844px;
+	background-color: steelblue;
+}
+50%  {
+	left:211px;
+/*	background-color: blue;*/
+	}
+75%  {
+	left:633px;
+	background-color: skyblue;
+}
+100% {
+	left:422px;
+	background-color: lightblue;
+}
+}
+
+.move{
+	width:50px;
+	height: 50px;
+	border-radius: 25px;
+	/*background-color: darkblue;*/
+	position: relative;
+	/*-webikit-transform: translateX(50px);*/
+	animation: mymove 4.01s infinite;
+	-webkit-animation: mymove 4.01s infinite;
+}
